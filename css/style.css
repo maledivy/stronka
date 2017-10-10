@@ -29,17 +29,44 @@
 	list-style: none;
 }
 
-.brand-wrapper ,#logo{
+.brand-wrapper,
+#logo-wrapper {
 	position: relative;
 	top: 40%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-#logo {
+
+#logo-wrapper {
 	-webkit-transform: rotate(270deg);
 	-moz-transform: rotate(270deg);
 	-o-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
 	transform: rotate(270deg);
+
+}
+
+.brand-wrapper,
+#logo-wrapper  span{
+	font-size: 20px;
+	letter-spacing: 2px;
+	
+}:hover {
+	cursor: default;
+	text-decoration: none;
+}
+
+.brand-wrapper,
+#logo-wrapper:focus {
+	text-decoration: none;
+	cursor: default;
+}
+
+.orange{
+	color: orange;
+}
+
+.white{
+	color: white;
 }
