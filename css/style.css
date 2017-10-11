@@ -6,21 +6,24 @@
 .nav-content {
 	height: 100vh;
 	position: relative;
-	top: 5%;
 
+
+}
+
+.link-wrapper {
+ padding-top: 15px;
 }
 
 .nav-content a {
 	display: block;
 	text-align: center;
-	padding: 1px;
 	color: white;
 	font-size: 20px;
 
 }
 
 .nav-content a :hover {
-	color: red;
+	color: orange;
 }
 
 .nav-content ul li,
@@ -48,11 +51,14 @@
 }
 
 .brand-wrapper,
-#logo-wrapper  span{
-	font-size: 20px;
-	letter-spacing: 2px;
-	
-}:hover {
+#logo-wrapper span {
+	font-family: 'Jura', sans-serif;
+	font-size: 15px;
+	letter-spacing: 4px;
+
+}
+
+:hover {
 	cursor: default;
 	text-decoration: none;
 }
@@ -63,10 +69,11 @@
 	cursor: default;
 }
 
-.orange{
+.orange {
 	color: orange;
 }
 
-.white{
+.white {
 	color: white;
 }
+
