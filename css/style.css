@@ -1,45 +1,60 @@
-.header{
+.header {
 	height: 100vh;
 	background: url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?dpr=1&auto=compress,format&fit=crop&w=1950&h=&q=80&cs=tinysrgb&crop=);
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .navbar-default {
 	border: none;
 	background-color: white;
 }
-.orange{
-	color: darkorange;
+
+.orange {
+	color: #FF533D;
 }
-.navbar-header{
+
+.navbar-header {
 	letter-spacing: 3px;
 }
 
-.about-section{
-	height: 100vh;
+.about-section {
+	height: 55vh;
 }
-.photo-wrapper{
-	min-height: 100vh;
 
-	background-color: whitesmoke;
-	
+.photo-wrapper {
+	min-height: 55vh;
+	background-color: #F5FSF5;
+
 }
-.photo-wrapper img{
+
+.photo-wrapper img {
 	border-radius: 50%;
 	width: 200px;
-	
+
 }
-.photo-wrapper , .photo{
-	padding-top: 50px;	
-}
-.photo-wrapper aside{
+
+.photo-wrapper,
+.photo {
 	padding-top: 50px;
-  text-align: start;
+}
+
+.photo-wrapper aside {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: start;
 	width: 70%;
 }
 
-#seccond{
-	background-color: lightgrey;
+#seccond {
+	background-color: #FF533d;
 }
-
+.offer-section{
+	position: relative;
+	height: 100vh;
+}
+.offer-wrapper hr{
+	height: 5px;
+	background-color: gray;
+	width: 100px;
+}
