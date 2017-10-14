@@ -1,81 +1,155 @@
-.container hr {
-	width: 100%;
-	height: 1px;
-	background-color: lightgrey;
-}
+	.container hr {
+		width: 100%;
+		height: 1px;
+		background-color: lightgrey;
+	}
 
-.navbar-default {
-	background-color: transparent;
-	border: none;
-	margin-top: 10px;
-}
 
-.navbar-nav {
-	float: none;
-	display: flex;
-	justify-content: center;
-}
+	.navbar-default {
+		background-color: transparent;
+		border: none;
+		margin-top: 10px;
+	}
 
-.nav li img {
-	height: 20px;
-}
+	.navbar-nav {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
 
-.navbar-default .navbar-nav > li > a {
-	font-weight: bold;
-	color: black;
-}
+	.nav li img {
+		height: 20px;
+	}
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: red;
-}
+	.navbar-default .navbar-nav > li > a {
+		font-weight: bold;
+		color: black;
+	}
 
-.contact-wrapper p {
-	font-size: 10px;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+	.navbar-default .navbar-nav > li > a:hover {
+		color: #ff8454;
+		cursor: pointer;
+	}
 
-.social,
-.fa {
-	color: firebrick;
-}
+	.contact-wrapper p {
+		font-size: 10px;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
 
-.carousel-wrapper > .carousel {
-	margin-top: 150px;
-	height: 60vh;
-}
+	.social,
+	.fa {
+		color: firebrick;
+	}
 
-#first {
+	.carousel-wrapper > .carousel {
+		margin-top: 150px;
+		height: 70vh;
+	}
 
-	background-image: url('http://preview.templety.com/owo/image/banner2.jpg');
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	height: 60vh;
-}
+	#first {
 
-#seccond {
-	background-image: url('http://preview.templety.com/owo/image/banner1.jpg');
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	height: 60vh;
-}
+		background-image: url('http://preview.templety.com/owo/image/banner2.jpg');
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		height: 70vh;
+	}
 
-#three {
-	background-image: url('http://btouch.in/images/banner6.jpg');
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	height: 60vh;
-}
+	#seccond {
+		background-image: url('http://preview.templety.com/owo/image/banner1.jpg');
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		height: 70vh;
+	}
+
+	#three {
+		background-image: url('http://btouch.in/images/banner6.jpg');
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: center;
+			height: 70vh;
+	}
+
+	.carousel-indicators {
+		position: absolute;
+		left: 10%;
+
+	}
+
+	.carousel-indicators li {
+		border-radius: 0;
+		border-color: white;
+	}
+
+	.carousel-indicators .active {
+		background-color: #ff8454;
+	}
+
+	.icons {
+		min-height: 140px;
+		height: auto;
+		width: 100%;
+		background-color: white;
+		display: table;
+	}
+
+	.i-wrapper {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+
+	}
+
+	.icons,
+	.symbol i,
+	.fa-bar-chart {
+		font-size: 40px;
+		color: orange;
+	}
+
+	.symbol > p {
+		text-align: center;
+		color: #000;
+		font-size: 13px;
+		column-width: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px;
+	}
+
+	.cookies-wrapper {
+		width: 100%;
+		height: 100px;
+		background-color: black;
+	}
+
+	.btn {
+		color: #fff;
+		background-color: #ff8454;
+		border-color: #ff8454;
+	}
+
+	.btn:hover {
+		color: #fff;
+		background-color: #ff8454;
+		border-color: #ff8454;
+	}
+
+	.btn:active {
+		color: #fff;
+		color: none;
+		background-color: none;
+	}
