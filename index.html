@@ -24,26 +24,39 @@
 
 <body>
 	<div class="header">
-		<nav class="main-nav navbar-fixed-top navbar-default" role="navigation">
+		<nav class="main-nav navbar-fixed-top navbar-default " role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+			</div>
 			<div class="container">
 				<div class="contact">
-					<div class="contact-wrapper pull-right">
+					<div class="contact-wrapper pull-right hidden-xs">
 						<p>Kontakt: tel. 536 557 110 / e-mail: kontat@maledivy.pl (pn-pt 10:00 - 18:00)</p>
 					</div>
 				</div>
-				<hr>
-				<ul class="nav navbar-nav">
-					<li class="nav-item"><a><img class="img-responsive" src="img/brand.png"></a></li>
+				<hr class="hidden-xs">
+					<div class="brand-sm hidden-lg hidden-md hidden-sm"><img class="img-responsive" src="img/brand.png"></div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				
+					<ul class="nav navbar-nav">
+				
+					<li class="nav-item hidden-xs"><a><img class="img-responsive" src="img/brand.png"></a></li>
 					<li class="nav-item"><a>Strona Główna</a></li>
 					<li class="nav-item"><a>O nas</a></li>
 					<li class="nav-item"><a>Projekty</a></li>
 					<li class="nav-item"><a>Oferta</a></li>
 					<li class="nav-item"><a>Narzędzia</a></li>
 					<li class="nav-item"><a>Kontat</a></li>
-					<li class="nav-item social"><a><i class="fa fa-facebook"></i></a></li>
-					<li class="nav-item social"><a><i class="fa fa-instagram"></i></a></li>
-					<li class="nav-item social"><a><i class="fa fa-github"></i></a></li>
+					<li class="nav-item social hidden-xs"><a><i class="fa fa-facebook"></i></a></li>
+					<li class="nav-item social hidden-xs"><a><i class="fa fa-instagram"></i></a></li>
+					<li class="nav-item social hidden-xs"><a><i class="fa fa-github"></i></a></li>
 				</ul>
+			</div>
 			</div>
 		</nav>
 		<!-- Carousel -->
@@ -72,19 +85,19 @@
 					<div class="row">
 						<div class="icons col-xs-12 text-center ">
 							<div class="i-wrapper">
-								<div class="symbol col-md-3  "><i class="fa fa-mobile" aria-hidden="true"></i>
+								<div class="symbol col-xs-6 col-md-3  "><i class="fa fa-mobile" aria-hidden="true"></i>
 									<p>Lorem Ipsum is simply </p>
 									<p>dummy text of the printing and typesetting </p>
 								</div>
-								<div class="symbol col-md-3 "><i class="fa fa-clock-o" aria-hidden="true"></i>
+								<div class="symbol  col-xs-6 col-md-3 "><i class="fa fa-clock-o" aria-hidden="true"></i>
 									<p>Lorem Ipsum is simply </p>
 									<p>dummy text of the printing and typesetting </p>
 								</div>
-								<div class="symbol col-md-3 "><i class="fa fa-handshake-o" aria-hidden="true"></i>
+								<div class="symbol  col-xs-6 col-md-3 "><i class="fa fa-handshake-o" aria-hidden="true"></i>
 									<p>Lorem Ipsum is simply </p>
 									<p>dummy text of the printing and typesetting </p>
 								</div>
-								<div class="symbol col-md-3 "><i class="fa fa-life-ring" aria-hidden="true"></i></i>
+								<div class="symbol col-xs-6 col-md-3 "><i class="fa fa-life-ring" aria-hidden="true"></i></i>
 									<p>Lorem Ipsum is simply </p>
 									<p>dummy text of the printing and typesetting </p>
 								</div>

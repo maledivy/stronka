@@ -6,9 +6,11 @@
 
 
 	.navbar-default {
-		background-color: transparent;
+		margin: 0 auto;
+		padding: 0;
+		background-color: white;
 		border: none;
-		margin-top: 10px;
+		padding-top: 10px;
 	}
 
 	.navbar-nav {
@@ -153,3 +155,25 @@
 		color: none;
 		background-color: none;
 	}
+
+.brand-sm img{
+	margin-top: 10px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	transform: translateY(50%);
+}
+
+@media (max-width: 767px)  { 
+	.navbar-nav {
+		display: block;
+		float:none;
+		height: auto;
+	}
+	.carousel-wrapper > .carousel{
+		margin-top: auto;
+	}
+
+
+}
+
