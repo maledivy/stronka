@@ -8,12 +8,14 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Maledivy.pl</title>
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Our css -->
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/cookiealert.css">
+	<link rel="stylesheet" href="css/hover-min.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -40,23 +42,22 @@
 					</div>
 				</div>
 				<hr class="hidden-xs">
-					<div class="brand-sm hidden-lg hidden-md hidden-sm"><img class="img-responsive" src="img/brand.png"></div>
+				<div class="brand-sm hidden-lg hidden-md hidden-sm"><img class="img-responsive" src="img/brand.png"></div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				
+
 					<ul class="nav navbar-nav">
-				
-					<li class="nav-item hidden-xs"><a><img class="img-responsive" src="img/brand.png"></a></li>
-					<li class="nav-item"><a>Strona Główna</a></li>
-					<li class="nav-item"><a>O nas</a></li>
-					<li class="nav-item"><a>Projekty</a></li>
-					<li class="nav-item"><a>Oferta</a></li>
-					<li class="nav-item"><a>Narzędzia</a></li>
-					<li class="nav-item"><a>Kontat</a></li>
-					<li class="nav-item social hidden-xs"><a><i class="fa fa-facebook"></i></a></li>
-					<li class="nav-item social hidden-xs"><a><i class="fa fa-instagram"></i></a></li>
-					<li class="nav-item social hidden-xs"><a><i class="fa fa-github"></i></a></li>
-				</ul>
-			</div>
+
+						<li class="nav-item hidden-xs"><a><img class="img-responsive" src="img/brand.png"></a></li>
+						<li class="nav-item"><a>Strona Główna</a></li>
+						<li class="nav-item"><a>Projekty</a></li>
+						<li class="nav-item"><a>Oferta</a></li>
+						<li class="nav-item"><a>Narzędzia</a></li>
+						<li class="nav-item"><a>Kontat</a></li>
+						<li class="nav-item social hidden-xs"><a><i class="fa fa-facebook"></i></a></li>
+						<li class="nav-item social hidden-xs"><a><i class="fa fa-instagram"></i></a></li>
+						<li class="nav-item social hidden-xs"><a><i class="fa fa-github"></i></a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 		<!-- Carousel -->
@@ -79,48 +80,59 @@
 					</div>
 				</div>
 			</div>
-			<!-- Info bar -->
-			<div claass="info-wrapper">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="icons col-xs-12 text-center ">
-							<div class="i-wrapper">
-								<div class="symbol col-xs-6 col-md-3  "><i class="fa fa-mobile" aria-hidden="true"></i>
-									<p>Lorem Ipsum is simply </p>
-									<p>dummy text of the printing and typesetting </p>
-								</div>
-								<div class="symbol  col-xs-6 col-md-3 "><i class="fa fa-clock-o" aria-hidden="true"></i>
-									<p>Lorem Ipsum is simply </p>
-									<p>dummy text of the printing and typesetting </p>
-								</div>
-								<div class="symbol  col-xs-6 col-md-3 "><i class="fa fa-handshake-o" aria-hidden="true"></i>
-									<p>Lorem Ipsum is simply </p>
-									<p>dummy text of the printing and typesetting </p>
-								</div>
-								<div class="symbol col-xs-6 col-md-3 "><i class="fa fa-life-ring" aria-hidden="true"></i></i>
-									<p>Lorem Ipsum is simply </p>
-									<p>dummy text of the printing and typesetting </p>
+		</div>
+			<!-- Cookie -->
+		<div class="alert alert-dismissible text-center cookiealert" role="alert">
+			<div class="cookiealert-container">
+				<b>Lubisz ciasteczka?</b> &#x1F36A;Używamy plików cookie, aby zapewnić Państwu nalpesze funkcjonowanie naszej witryny.
+				<button type="button" class="btn btn-sm acceptcookies" aria-label="Close">Rozumiem</button>
+			</div>
+		</div>
+		<!-- /Cookie -->
+		<div class="projects text-center">
+			<div class="container">
+				<div class="row">
+					<div class="title-text text-center">
+						<h2>Projekty</h2>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)</p>
+						<hr>
+					</div>
+					<div class="project-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="projects col-xs-12">
+									<div id="img1" class="col-xs-12 col-sm-6 col-md-4 col-lg-4   wow fadeInRight"><img class="img-responsive" src="img/img-mini.png"></div>
+									<!-- -->
+									<div id="img2"class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow fadeIn"><img class="img-responsive"  src="img/img-mini-1.png"></div>
+									<!-- -->
+									<div id="img3" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow fadeInUp"><img class="img-responsive"  src="img/img-mini-2.png"></div>
+									<!-- -->
+									<div id="img4" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow fadeInDown"><img class="img-responsive"  src="img/img-mini-3.png"></div>
+									<!-- -->
+									<div id="img5" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow fadeIn"><img class="img-responsive"  src="img/img-mini-4.png"></div>
+									<!-- -->
+									<div id="img6" class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wow fadeInLeft"><img class="img-responsive"  src="img/img-mini-5.png"></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Cookie -->
-			<div class="alert alert-dismissible text-center cookiealert" role="alert">
-				<div class="cookiealert-container">
-					<b>Lubisz ciasteczka?</b> &#x1F36A;Używamy plików cookie, aby zapewnić Państwu nalpesze funkcjonowanie naszej witryny.
-					<button type="button" class="btn btn-sm acceptcookies" aria-label="Close">Rozumiem</button>
-				</div>
-			</div>
-			<!-- /Cookie -->
-			<!-- Font Awesome -->
-			<script src="https://use.fontawesome.com/6992ae8e72.js"></script>
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.min.js"></script>
-			<script src="cookiealert-standalone.js"></script>
-			<script src="js/cookiealert-standalone.js"></script>
+
+		</div>
+		<!-- Wow -->
+		  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/6992ae8e72.js"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="cookiealert-standalone.js"></script>
+		<script src="js/cookiealert-standalone.js"></script>
 </body>
+
 </html>
