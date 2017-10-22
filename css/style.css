@@ -192,8 +192,8 @@
 }
 
 .title-text h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
+	font-family: 'Kanit', sans-serif;
+	padding-bottom: 35px;
 
 }
 
@@ -206,6 +206,7 @@
 .projects img {
 	padding: 5px;
 }
+
 
 #img1 {
 	animation-delay: 2.0s;
@@ -231,17 +232,39 @@
 	animation-delay: 1.2s;
 }
 
-.offer-wrapper {
+#html {
+	animation-delay: 0.3s;
+}
+
+#css {
+	animation-delay: 0.6s;
+}
+
+#js {
+	animation-delay: 0.9s;
+}
+
+#jq {
+	animation-delay: 1.2s;
+}
+
+#less {
+	animation-delay: 1.5s;
+}
+
+#bs {
+	animation-delay: 1.8s;
+}
+
+.tools-wrapper {
 	position: relative;
 	width: 100%;
-	max-height: 50vh;
+	height: 50vh;
 	overflow: hidden;
 }
 
-#video-elem {
-	width: 100%;
+.tools-wrapper video {
 	filter: brightness(50%);
-
 }
 
 .video-overlay {
@@ -251,21 +274,57 @@
 	bottom: 0;
 	left: 0;
 	opacity: 1;
-
 }
 
 .video-overlay h2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	font-weight: 500;
 	color: #fff;
 	padding-top: 50px;
 
 }
-.video-overlay p{
+
+.video-overlay p {
+	font-family: 'Khula', sans-serif;
+	padding-bottom: 35px;
+	padding-top: 35px;
 	color: #fff;
+	font-size: 17px;
 }
 
 
+.header {
+	height: 100px;
+	background-color: aquamarine;
+
+}
+
+.contact-page {
+	height: 50vh;
+}
+
+.contact-title {
+	padding-top: 50px;
+	font-family: 'Kanit', sans-serif;
+	margin-bottom: 80px;
+}
+
+.contact-title hr {
+	height: 2px;
+	background-color: #ff8454;
+	width: 100px;
+}
+
+.contact-title p {
+	padding-top: 25px;
+	font-size: 17px;
+	font-family: 'Khula', sans-serif;
+}
+
+.contact li {
+	list-style-type: none;
+	text-align: center;
+}
 
 
 @media (max-width: 767px) {

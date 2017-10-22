@@ -9,6 +9,8 @@
 	<title>Maledivy.pl</title>
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Kanit&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Khula&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Our css -->
@@ -51,7 +53,6 @@
 						<li class="nav-item hidden-xs"><a><img class="img-responsive" src="img/brand.png"></a></li>
 						<li class="nav-item"><a>Strona Główna</a></li>
 						<li class="nav-item"><a>Projekty</a></li>
-						<li class="nav-item"><a>Oferta</a></li>
 						<li class="nav-item"><a>Narzędzia</a></li>
 						<li class="nav-item"><a>Kontat</a></li>
 						<li class="nav-item social hidden-xs"><a><i class="fa fa-facebook"></i></a></li>
@@ -121,33 +122,69 @@
 			</div>
 
 		</div>
-		<div class="offer-wrapper wow fadeIn">
-			<video id="video-elem" preload="auto" autoplay="true" loop="loop" muted="muted" poster="videoGIF.gif">
+		<div class="tools-wrapper">
+			<video preload="auto" autoplay="true" loop="loop" muted="muted" poster="videoGIF.gif">
 				<source src="../stronka/video/background.mp4" type="video/mp4">Twoja przglądarka nie obsługuje video</video>
 			</video>
 			<div class="video-overlay">
 				<div class="container">
-					<h2 class="text-center">Oferta</h2>
-					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)</p>
+					<h2 class="text-center  wow fadeIn  ">Narzędzia</h2>
+					<p class=" wow fadeIn">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)</p>
+					<div class="tool-row col-xs-12">
+						<div class="col-xs-12 col-md-2 "><img id="html" class="img-responsive  wow fadeIn" src="img/html.png"></div>
+						<div class="col-xs-12 col-md-2"><img id="css" class="img-responsive wow fadeInLeft" src="img/css.png"></div>
+						<div class="col-xs-12 col-md-2"><img id="js" class="img-responsive wow fadeInLeft" src="img/javascript.png"></div>
+						<div class="col-xs-12 col-md-2"><img id="jq" class="img-responsive wow fadeInLeft" src="img/jquery.png"></div>
+						<div class="col-xs-12 col-md-2"><img id="less" class="img-responsive wow fadeInLeft" src="img/less.png"></div>
+						<div class=" col-xs-12 col-md-2"><img id="bs" class="img-responsive wow fadeInLeft" src="img/bootstrap.png"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Wow -->
-		<script src="js/wow.min.js"></script>
-		<script>
-			new WOW().init();
+		<div class="contact-page">
 
-		</script>
-		<!-- Particles -->
+			<div class="container">
+				<div class="row">
+					<div class="contact-title">
+						<h2 class="text-center">Skontaktuj się z nami !</h2>
+						<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<hr>
+					</div>
+					<ul class="contact text-center">
+						<li class="col-md-4">
+							<p><i class="fa fa-map-marker fa-3x"></i></p>
+							<p><strong>Polska</strong></br>14-100 Ostróda</p>
+						</li>
+						<li class="col-md-4">
+							<p><i class="fa fa-phone fa-3x"></i></p>
+							<p><strong>Telefon:</strong></br>536 557 110</p>
+						</li>
+						<li class="col-md-4">
+							<p><i class="fa fa-envelope fa-3x"></i></p>
+							<p><strong>E-mail:</strong></br>kontakt@maledivy.pl</p>
+						</li>
+					</ul>
 
-		<!-- Font Awesome -->
-		<script src="https://use.fontawesome.com/6992ae8e72.js"></script>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="cookiealert-standalone.js"></script>
-		<script src="js/cookiealert-standalone.js"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Wow -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+
+	</script>
+	<!-- Particles -->
+
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/6992ae8e72.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="cookiealert-standalone.js"></script>
+	<script src="js/cookiealert-standalone.js"></script>
 </body>
 
 </html>
