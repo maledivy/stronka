@@ -1,3 +1,7 @@
+#scrool {
+	overflow: scroll;
+}
+
 .header {
 	height: 100vh;
 }
@@ -106,27 +110,11 @@
 	background-color: #ff8454;
 }
 
-.icons {
-	min-height: 150px;
-	height: auto;
-	width: 100%;
-	background-color: white;
-	display: table;
-}
-
 .i-wrapper {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 
-}
-
-.icons,
-.symbol i,
-.fa-bar-chart {
-	margin-top: 5px;
-	font-size: 30px;
-	color: orange;
 }
 
 .symbol > p {
@@ -173,8 +161,8 @@
 }
 
 .projects {
-	margin-top: 15px;
-	min-height: 65vh;
+	margin-bottom: 50px;
+	padding-top: 50px;
 	height: auto;
 	background-color: #fff;
 }
@@ -185,7 +173,6 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
-
 
 .title-text {
 	padding-top: 50px;
@@ -232,8 +219,8 @@
 	animation-delay: 1.2s;
 }
 
-#html {
-	animation-delay: 0.3s;
+#git {
+	animation-delay: 0.7s;
 }
 
 #css {
@@ -241,62 +228,26 @@
 }
 
 #js {
-	animation-delay: 0.9s;
+	animation-delay: 0.4s;
 }
 
 #jq {
-	animation-delay: 1.2s;
+	animation-delay: 0.5s;
 }
 
 #less {
-	animation-delay: 1.5s;
+	animation-delay: 0.3s;
 }
 
-#bs {
-	animation-delay: 1.8s;
-}
-
-.tools-wrapper {
-	position: relative;
-	width: 100%;
-	height: 50vh;
-	overflow: hidden;
-}
-
-.tools-wrapper video {
-	filter: brightness(50%);
-}
-
-.video-overlay {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	opacity: 1;
-}
-
-.video-overlay h2 {
-	font-family: 'Kanit', sans-serif;
-	font-weight: 500;
-	color: #fff;
-	padding-top: 50px;
-
-}
-
-.video-overlay p {
-	font-family: 'Khula', sans-serif;
-	padding-bottom: 35px;
-	padding-top: 35px;
-	color: #fff;
-	font-size: 17px;
+#bootstrap {
+	animation-delay: 0.2s;
 }
 
 
 .header {
 	height: 100px;
 	background-color: aquamarine;
-
+	transition: 5s;
 }
 
 .contact-page {
@@ -326,8 +277,100 @@
 	text-align: center;
 }
 
+.navbar-fixed {
+	position: fixed;
+	background-color: #fff;
+	z-index: 1;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+}
 
-@media (max-width: 767px) {
+#preloader {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	z-index: 999;
+	overflow: hidden;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#more {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	text-transform: capitalize;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	letter-spacing: 4px;
+
+}
+
+.orange {
+	color: orange;
+}
+.tools-wrapper{
+	margin-top: 20px;
+	height: auto;
+	min-height: 50vh;
+	background: url(../img/tools.jpg);
+	/*	background-color: #fd7f1f; */
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	width: 100%;
+}
+.tools-wrapper h2{
+	padding-top: 55px;
+	font-family: 'Kanit', sans-serif;
+	padding-bottom: 35px;
+}
+.tools-wrapper p{
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.tools-wrapper hr{
+	height: 2px;
+	background-color: #ff8454;
+	width: 100px;
+	border: none;
+}
+.tools-content{		
+	filter: brightness(100%);
+ 	position: relative;
+	height: 30vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tools-img img {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+.tools-content h2{
+		font-family: 'Kanit', sans-serif;
+	padding-bottom: 35px;
+	color: #fff;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
 	.navbar-nav {
 		display: block;
 		float: none;
@@ -335,5 +378,55 @@
 	}
 	.carousel-wrapper > .carousel {
 		margin-top: auto;
+	}
+	#img1 {
+		animation-delay: 0.2s;
+		animation-name: fadeIn;
+	}
+
+
+	#img2 {
+		animation-delay: 0.3s;
+		animation-name: fadeIn;
+	}
+
+	#img3 {
+		animation-delay: 0.4s;
+		animation-name: fadeIn;
+	}
+
+	#img4 {
+		animation-delay: 0.5s;
+		animation-name: fadeIn;
+	}
+
+	#img5 {
+		animation-delay: 0.6s;
+		animation-name: fadeIn;
+	}
+
+	#img6 {
+		animation-delay: 0.7s;
+		animation-name: fadeIn;
+	}
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 1024px) {
+	.nav {
+	
+	}
+	.video {
+		display: none;
+	}
+	.video-overlay {
+		height: auto;
+	}
+	.tool-wrapper {
+		height: 50vh;
+		padding:
+	}
+	.tool-row {
+		background-color: darkslategrey;
+		height: auto !important;
 	}
 }
